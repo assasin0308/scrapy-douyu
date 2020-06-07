@@ -6,7 +6,7 @@ from douyu.items import DouyuItem
 
 class DouyumeinvSpider(scrapy.Spider):
     name = 'douyumeinv'
-    allowed_domains = ['http://capi.douyucdn.cn/']
+    allowed_domains = ['capi.douyucdn.cn']
     offset = 0
     url = 'http://capi.douyucdn.cn/api/v1/getVerticalRoom?limit=20&offset='
     start_urls = [
